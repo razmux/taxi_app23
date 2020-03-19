@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11D06B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#11D06B"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button"
+            android:text="@string/chofer"
+            android:textColor="#ffad1b" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/taxilogo" />
+
+        <EditText
+            android:id="@+id/et-Email"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/edit"
+            android:drawableStart="@android:color/primary_text_dark_nodisable"
+            android:drawablePadding="10dp"
+            android:hint="@string/usuario"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:textColorHint="#ffad1b"
+            android:autofillHints="" tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/et-pass"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit"
+            android:drawablePadding="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="#ffad1b"
+            android:autofillHints="" tools:targetApi="o" />
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:text="@string/login"
+            android:textColor="#ffad1b" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
